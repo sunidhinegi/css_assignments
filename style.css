@@ -322,7 +322,40 @@ header {
   color: red;
   font-size: 30px;
   font-weight: 600;
+}
 
+.dance-fun {
+  background-color: burlywood;
+  padding-top: 40px;
+}
+
+.dance-fun > h1 {
+  margin-left: 40%;
+  font-size: 27px;
+
+}
+
+.dance-fun > p {
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.dance-fun > input {
+  margin-left: 38%;
+  padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    margin-top: 3%;
+}
+
+.last-para {
+  margin-left: 35%;
+
+}
+.btn-sub {
+  padding: 10px;
+  
 }
 
 
