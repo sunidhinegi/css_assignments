@@ -32,6 +32,13 @@ header {
   text-decoration: none;
 }
 
+.YourLogo h1 a:hover {
+  color: yellow;
+  /* text-decoration: none; */
+}
+
+
+
 header {
   display: flex;
   justify-content: space-between;
