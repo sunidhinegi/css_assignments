@@ -190,3 +190,141 @@ header {
     letter-spacing: 3px;
 }
 
+.transform-section{
+  padding: 86px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: beige;
+}
+
+.transform-section h2{
+  color: brown;
+  font-size: 33px;
+  margin-bottom: 6%;
+} 
+.btn-three {
+  width: 220px;
+    background-color: #726c54;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    margin-left: 5%;
+}
+.members h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #726c54;
+}
+.members h3 {
+  font-size: 30px;
+  color: #726c54;
+}
+
+
+.basic-img > img{
+  width: 70%;
+}
+
+.dance-img > img{
+  width: 70%;
+}
+
+.professional-img > img{
+  width: 70%;
+}
+.offers-dance{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 4%;
+  text-align: center;
+}
+
+.class-level > h1{
+  text-align: center;
+    font-size: 42px;
+    color: saddlebrown;
+    padding-top: 4%;
+}
+.basic-img > h2 {
+  /* margin-left: 7%; */
+  color: saddlebrown;
+}
+
+
+
+
+.dance-img > h2 {
+  /* margin-left: 7%; */
+  color: saddlebrown;
+}
+
+.professional-img > h2 {
+  margin-left: 5%;
+  color: saddlebrown;
+}
+
+.basic-img > h3 {
+  /* padding-left: 21%; */
+  padding-top: 3%;
+}
+
+.basic-img > h4 {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.dance-img > h3 {
+  /* padding-left: 21%; */
+  padding-top: 3%;
+}
+
+.dance-img > h4 {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.professional-img > h3 {
+  /* padding-left: 21%; */
+  padding-top: 3%;
+}
+
+.professional-img > h4 {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  background: url(images/latest.jpg) center center no-repeat;
+  padding: 200px 0;
+  background-size: cover;
+  text-align: center;
+  
+  /* color: white; */
+}
+
+
+/* .bottom-left {
+  position: absolute;
+  left: 23%;
+  top: 42%;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: brown;
+} */
+
+.bottom-left {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+
+
+
