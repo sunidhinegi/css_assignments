@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+  <style>
+    body {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    /* .parent-cls::before {
+      width: 100%;
+      height: 100%;
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    } */
+
+    .parent-cls::after {
+      width: 50vw;
+      height: 100vh;
+      background-color: #FFC700;
+      /* background-image: linear-gradient(45deg, #ffc800d8 0%, #FFC700 100%); */
+      position: absolute;
+      content: '';
+      top: 0;
+
+      z-index: -2;
+
+      right: -250px;
+      border-radius: 30px; 
+      transform: rotate(45deg);
+    }
+
+    .logo-large {
+      position: absolute;
+      top: 212px;
+      right: 69px;
+      width: 300px;
+      height: 232px;
+    }
+
+    .plant1-cls {
+      position: absolute;
+      width: 260px;
+      right: 8%;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="parent-cls">
+    <div class="wrapper">
+
+      <section class="first-sec">
+
+        <div class="header">
+          <div class="logo-img">
+            <img src="./images/logo.png" alt="My Logo">
+          </div>
+
+          <div class="menu">
+            <nav>
+              <ul class="menu-items">
+                <li class="sub-items"><a href="#">Home</a></li>
+                <li class="sub-items"><a href="#">About</a></li>
+                <li class="sub-items"><a href="#">Work</a></li>
+                <li class="sub-items"><a href="#">Clients</a></li>
+                <li class="sub-items"><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <!-- </div> -->
+
+          <div class="social-icons">
+            <!-- <i class="fa-solid fa-user"></i> -->
+            <!-- <i class="fa-solid fa-google"></i> -->
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+          <div class="ham-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="second-sec">
+        <div class="first-para">
+          <h3>Beautiful and Responsive</h3>
+          <h2>Creative Websites</h2>
+          <h2>Simple & Easy</h2>
+          <button class="btn">Our Latest Work</button>
+        </div>
+
+        <div>
+          <!-- <img src=".images/logo-large.png"> -->
+          <!-- <img class="image" src="./images/logo-large.png" alt="My Logo"> -->
+          <!-- <img src="./images/plant1.png" alt="My Logo"> -->
+
+
+        </div>
+        <div class="logo-parent">
+          <img src="./images/logo-large.png" class="logo-large">
+        </div>
+        <div class="logo-plant">
+          <img src="./images/plant1.png" class="plant1-cls">
+        </div>
+      </section>
+
+    </div>
+  </div>
+</body>
+
+</html>
